@@ -1,0 +1,16 @@
+{
+  "mqtt_client_id": "power_meter",
+  "mqtt_host": "192.168.0.210",
+  "mqtt_port": "1883",
+  "verbose": "true",
+  "sources": [
+    {
+      "gpio": "4",
+      "topic": "halti/david/power_consumption"
+    },
+    {
+      "gpio": "17",
+      "topic": "halti/stweg/power_consumption"
+    }
+  ]
+}
