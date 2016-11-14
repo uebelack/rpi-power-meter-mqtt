@@ -1,7 +1,7 @@
 Power Meter Logger for Raspberry Pi
 =============================
 
-Reads the led impulses of a power meter via light sensor, calculate the current power consumption and sends it to a mqtt broker.
+Reads the led impulses of a power meter (Tested with Echelon 83320 from IWB, Basel) via light sensor, calculate the current power consumption and sends it to a mqtt broker.
 
 
 Installation:
